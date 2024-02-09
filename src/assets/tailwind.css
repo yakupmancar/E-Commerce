@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paginate {
+  display: flex;
+  align-items: center;
+  gap: 0px 12px;
+  margin-top: 100px;
+}
+
+.paginate li {
+  border: 2px solid gray;
+  border-radius: 4px;
+  padding: 0px 6px;
+}
+
+input[type="checkbox"] {
+  width: 19px; /* genişlik */
+  height: 19px; /* yükseklik */
+}
+
